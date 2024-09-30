@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Dhanna Diners Club Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Al Dhanna Diners Club</h1>
+    </header>
+
+    <main>
+        <section class="registration-form" id="registration-section">
+            <h2>Register for Exclusive Offers</h2>
+            <p id="offer-info"></p> 
+            <form id="registration-form">
+                <div>
+                    <label for="serialName">Serial Name:</label>
+                    <input type="text" id="serialName" name="serialName" required>
+                </div>
+                <div>
+                    <label for="dateOfBirth">Date of Birth:</label>
+                    <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                </div>
+                <div>
+                    <label for="nationality">Nationality:</label>
+                    <input type="text" id="nationality" name="nationality" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Mobile Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <input type="checkbox" id="promotional-consent" name="promotionalConsent">
+                    <label for="promotional-consent">I consent to promotional updates</label>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            <div id="registration-response"></div>
+
+            <section class="digital-id" id="digital-id-section">
+                <h2>Your Digital ID</h2>
+                <p id="digital-id-text">Your digital ID will be available here once you register.</p>
+                <a id="download-link" href="#" download="guest_id.pdf" style="display: none;">Download ID</a>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Al Dhanna Diners Club</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

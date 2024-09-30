@@ -1,0 +1,282 @@
+/*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    background-image: url("Images/H1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-image: url("images/image3.jpg"); /* Image 3 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/*.registration-form {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/image4.jpg"); /* Image 4 
+    background-size: cover;
+    background-position: center;
+    width: 300px; /* Set a fixed width for the form 
+    max-width: 90%; /* Allow it to be responsive 
+    padding: 1rem; /* Add some padding for spacing 
+    border-radius: 8px; /* Optional: rounded corners for the form 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: soft shadow for depth 
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/image4.jpg"); /* Image 4 *
+    background-size: cover;
+    background-position: center;
+    width: 300px; /* Set a fixed width for the form 
+    max-width: 90%; /* Allow it to be responsive *
+    padding: 1rem; /* Add some padding for spacing 
+    border-radius: 8px; /* Optional: rounded corners for the form *
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: soft shadow for depth *
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background 
+}
+
+.registration-form label {
+    margin-bottom: 0.5rem;
+}
+
+.registration-form input,
+.registration-form button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for better readability 
+}
+
+.registration-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#registration-response {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: green;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background 
+    background-size: cover;
+    background-position: center;
+    width: 300px; /* Set a fixed width for the form 
+    max-width: 90%; /* Allow it to be responsive 
+    padding: 1rem; /* Add some padding for spacing 
+    border-radius: 8px; /* Optional: rounded corners for the form 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional: soft shadow for depth 
+    backdrop-filter: blur(5px);
+}
+
+.registration-form label {
+    margin-bottom: 0.5rem;
+}
+
+.registration-form input,
+.registration-form button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for inputs/button 
+}
+
+.registration-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#registration-response {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: green;
+}
+
+
+
+.digital-id {
+    text-align: center;
+    margin-top: 2rem; /* Add some space above the digital ID section 
+}
+
+#digital-id-text {
+    margin-bottom: 1rem;
+}
+
+#download-link {
+    background-color: #4CAF50; /* Green button 
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default link underline 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-image: url("Images/H1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.content-wrapper {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.registration-form label {
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.registration-form input,
+.registration-form button {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.registration-form input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.registration-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+    background-color: #45a049;
+}
+
+#registration-response {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.digital-id {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#digital-id-text {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+#download-link {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#download-link:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
